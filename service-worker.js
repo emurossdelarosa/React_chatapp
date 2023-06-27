@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/emurossdelarosa/React_chatapp.git/precache-manifest.6e86a078bb36c9d35bb3e0477b726407.js"
+  "/React_chatapp/precache-manifest.1f78ff09161051aac8e8bd7efee5a1ad.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/emurossdelarosa/React_chatapp.git/index.html", {
+workbox.routing.registerNavigationRoute("/React_chatapp/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
